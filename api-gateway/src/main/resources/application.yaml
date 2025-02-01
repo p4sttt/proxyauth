@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: api-gateway
+
+  security:
+    oauth2:
+      authorizationserver:
+        issuer: "http://localhost:${AUTH_SERVER_PORT:9001}/auth/"
+
+server:
+  port: ${API_GATEWAY_PORT:9000}
