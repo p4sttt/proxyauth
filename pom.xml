@@ -7,6 +7,7 @@
     <groupId>me.d4y2k</groupId>
     <artifactId>proxyauth</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <modules>
         <module>persistence</module>
